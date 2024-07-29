@@ -22,11 +22,11 @@ $(function () {
   const targetId = $("#classDiv");
 
   addClass.on("click", function () {
-    targetId.addClass(".new-class");
+    targetId.addClass("newClass");
   });
 
   removeClass.on("click", function () {
-    targetId.removeClass(".new-class");
+    targetId.removeClass("newClass");
   });
 
   // exercise4
